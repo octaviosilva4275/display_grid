@@ -1,0 +1,32 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 10px;
+  background-color: #2196F3;
+  padding: 10px;
+  width: 95vw;
+  height: 95vh;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+.item1 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+
+
+/* ITEM 02 */
+
+.button{
+
+  border: 2px solid black;
+  padding: 20px;
+  border-radius: 30px;
+}

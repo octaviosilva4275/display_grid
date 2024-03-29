@@ -1,0 +1,85 @@
+.direita {
+    width: 50%;
+    height: 100vh;
+    box-sizing: border-box;
+
+    background-color: var(--cor-fundo-direita);
+    position: absolute; /* Alterando para position absolute */
+    top: 0; /* Alinhando no topo */
+    bottom: 0; /* Esticando até o final */
+    right: 0; /* Alinhando à direita */
+}
+
+.grid-container {
+    margin-top: 15px;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(2, 318px); /* 3 colunas com largura igual */
+    grid-template-rows: repeat(3, 101px); /* 2 linhas com altura de 100px */
+    gap: 20px; /* Espaçamento entre as células */
+  }
+  
+  .item {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center; /* Alinha os itens verticalmente no centro */
+    justify-content: space-around; /* Distribui o espaço ao redor dos itens */
+    background-color: #ddd;
+    padding: 12px 22px; /* Atualizado para um único valor para abreviação */
+    border: 2px solid var(--cor-border);
+    border-radius: 20px;
+    background-color: transparent;
+}
+
+.item img{
+    max-width: 100%; /* Garante que a imagem não ultrapasse o contêiner */
+    height: auto; /* Mantém a proporção da imagem */
+    padding-right: 25px;
+}
+
+.preset-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 200px;
+    margin-left: auto;
+    font-size: 16px;
+    text-align: justify; /* Adiciona justificação ao texto */
+    font-weight: bold;
+    color: black;
+}
+
+.proibido{
+    margin-top: 12px;
+    margin-left: 37px;
+    color: var(--cor-container-vermelho);
+    font-size: 22px;
+}
+
+
+.obrigatorio{
+    margin-top: 12px;
+    margin-left: 170px;
+    color: var(--cor-container-vermelho);
+    font-size: 22px;
+}
+
+
+.proibido-img img,
+.obrigatorio-img img {
+    margin-left: 10px;
+    margin-top: 12px; /* ou qualquer valor desejado */
+}
+
+.section_container_vermelho{
+    margin-top: 13px;
+    width: 691px;
+    height: 45px;
+    background-color: var(--cor-container-vermelho);
+    border-radius: 0px 30px 30px 0px;
+
+}
+
+.section_container_vermelho span{
+    margin-left: 30px;
+}

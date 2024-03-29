@@ -1,0 +1,142 @@
+.esquerda {
+  width: 50%;
+  height: 100vh;
+  box-sizing: border-box;
+
+  background-color: var(--cor-fundo-esquerda);
+  position: absolute; /* Alterando para position absolute */
+  top: 0; /* Alinhando no topo */
+  bottom: 0; /* Esticando até o final */
+  left: 0; /* Alinhando à esquerda */
+}
+
+.header_container_img {
+  width: 720px;
+  height: 593px;
+  background-color: var(--cor-fundo-esquerda);
+  position: absolute; /* Mantendo position absolute */
+  top: 0; /* Colando o topo no elemento pai (esquerda) */
+  left: 0; /* Colando a esquerda no elemento pai (esquerda) */
+}
+
+.header_container_img img {
+  margin: 20px;
+  object-fit: cover; /* Para ajustar a imagem para cobrir todo o container */
+}
+
+.header_container_senai{
+  width: 720px;
+  height: 381px;
+  position: absolute;
+  top: 595px;
+  left: 0%;
+  background-color: var(--cor-fundo-senai);
+  justify-content: center;
+  align-items: center;
+}
+
+.sec02{
+  position: relative;
+}
+.container-01 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+  margin-top: 600px;
+}
+
+.container-text{
+
+  justify-content: center;
+  align-items: center;
+  margin-left: 90px;
+  margin-top: 165px;
+  width: 540px;
+  height: 157px;
+}
+
+.base {
+  position: absolute;
+  width: 578px;
+  height: 213px;
+  background-color: var(--cor-fundo-senai);
+  margin-bottom: 20px;
+  border-radius: 35px;
+  top: 50px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0px 0px 12px 8px rgba(0, 0, 0, 0.25);
+
+}
+
+.base h2{
+  text-align:center;
+  margin-top: 60px;
+}
+
+.sobreposta h1{
+  font-size: 32px;
+  
+}
+
+h1, h2, h3, h4, h5{
+  font-weight: 400    ;
+}
+
+.sobreposta {
+  position: absolute;
+  top: -90px;
+  left: 60px;
+  width: 456px;
+  height: 90px;
+  border-radius: 15px;
+  background-color: var(--cor-fundo-senai);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  box-shadow: 0px 0px 12px 8px rgba(0, 0, 0, 0.25);
+}
+
+
+
+
+.text02{
+  display: flex;
+  margin-top: 10px;
+  justify-content: center;
+  align-items:start;
+}
+
+.text03, .text01{
+  display: flex;
+  justify-content: space-around;
+}
+
+.text04{
+  display: flex;
+  justify-content: space-around;
+}
+
+h4 img{
+  padding-right: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* .base {
+  background-color: blue;
+  text-align: center;
+  color: white;
+  padding: 20px;
+}
+
+.sobreposta {
+  background-color: green;
+  padding: 20px;
+  position: absolute;
+} */

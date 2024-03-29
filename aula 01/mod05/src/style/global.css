@@ -1,0 +1,72 @@
+/* global.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+.body{
+    font-size: 62.5%;
+}
+
+
+body, html {
+    width: 1440px;
+    height: 1024px;
+    margin: 0 auto; /* Para alinhar horizontalmente */
+    padding: 0;
+    font-family: 'Roboto', sans-serif;;
+    color: white;
+    /* background: linear-gradient(to left, var(--cor-fundo-esquerda), var(--cor-fundo-senai), var(--cor-fundo-direita)); */
+
+}
+
+.header_container_global {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    border: 2px solid #000;
+    justify-content: center;
+    position: relative; /* Adicionando posição relativa para permitir o posicionamento absoluto dos elementos filhos */
+}
+
+
+.esquerda, .direita {
+    width: 50%;
+    box-sizing: border-box;
+
+}
+
+.esquerda {
+    background-color: var(--cor-fundo-esquerda);
+    
+}
+
+.direita {
+    background-color: var(--cor-fundo-direita);
+}
+
+footer {
+    width: 1440px;
+    height: 110px;
+    background-color: var(--cor-fundo-rodape);
+    color: var(--cor-texto-rodape);
+    position: absolute;
+    margin-left: 2px;
+    bottom: -6%;
+}
+
+.logo_senai{
+    margin-left: 280px;
+    margin-bottom: 10px;
+}
+
+.qrcode{
+    margin-top: 15px;
+    margin-left: 305px;
+}
+
+.text_footer{
+    width: auto;
+    color: var(--cor-texto-rodape);
+    margin-top: -70px;
+    margin-left: 900px;
+}
